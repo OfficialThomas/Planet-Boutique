@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Camera : MonoBehaviour
+public class CameraBehavior : MonoBehaviour
 {
     public GameObject _player;
     public Vector3 _cameraOffset = new Vector3(0, 5, -10);
@@ -37,5 +37,10 @@ public class Camera : MonoBehaviour
             transform.position = movingPos;
         }
         
+    }
+
+    public void ChangeOffset(float magnitude)
+    {
+        _cameraOffset = _cameraOffset * magnitude;
     }
 }
