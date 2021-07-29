@@ -3,6 +3,7 @@ CMPM 121 Assignment 1 (UNITY)
 
 The goal of this assignment is to show my ability to do the following:
 - Access the game through Buttons on a UI
+- Use Sliders to change values
 - Manipulate the position of an object
 - Manipulate the rotation of an object
 - Manipulate the scale of an object
