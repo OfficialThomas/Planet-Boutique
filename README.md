@@ -1,4 +1,6 @@
-README
+#Planet Boutique
+CMPM 121 Assignment 1
+
 1. Dynamically manipulate the position, rotation, and scale of an object in the scene.\
     Status: Complete.\
     Cube moves around the scene, and the rotation, rotation speed, and scale can all be adjusted using either buttons or sliders on the UI.
