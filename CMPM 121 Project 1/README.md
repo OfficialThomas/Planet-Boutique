@@ -1,4 +1,6 @@
-README
+# Planet Boutique
+CMPM 121 Assignment 1
+
 1. Dynamically manipulate the position, rotation, and scale of an object in the scene.\
     Status: Complete.\
     Cube moves around the scene, and the rotation, rotation speed, and scale can all be adjusted using either buttons or sliders on the UI.
@@ -14,3 +16,5 @@ README
 4. Unique manipulation.\
     Status: Complete.\
     The cube revolves around a sphere using RotateAround() and the camera follows the cube using Vector3.lerp.
+
+Link to video explanation here:\
