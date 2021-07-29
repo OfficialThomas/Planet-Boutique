@@ -33,7 +33,7 @@ public class PlayerBehavior : MonoBehaviour
     {
         //learned how to rotate here
         //https://docs.unity3d.com/2018.1/Documentation/ScriptReference/Transform.Rotate.html
-        transform.Rotate(Vector3.up * Time.deltaTime * _rotSpeed);
+        transform.Rotate(Vector3.up * _rotSpeed * Time.deltaTime);
 
         Vector3 currentScale = transform.localScale;
         if (currentScale.x >= _maxScale.x)
@@ -46,6 +46,10 @@ public class PlayerBehavior : MonoBehaviour
             transform.localScale = _minScale;
             _cameraMove = false;
         }
+
+        //learned RotateAround here
+        //https://docs.unity3d.com/ScriptReference/Transform.RotateAround.html
+        transform.RotateAround(_sun.transform.position, Vector3.down, _moveSpeed * Time.deltaTime);
 
         GetComponent<MeshRenderer>().material.color = new Color(_red, _green, _blue);
 
