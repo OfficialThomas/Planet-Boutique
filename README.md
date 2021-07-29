@@ -1,4 +1,4 @@
-#Planet Boutique
+# Planet Boutique
 CMPM 121 Assignment 1
 
 1. Dynamically manipulate the position, rotation, and scale of an object in the scene.\
