@@ -16,5 +16,3 @@ CMPM 121 Assignment 1
 4. Unique manipulation.\
     Status: Complete.\
     The cube revolves around a sphere using RotateAround() and the camera follows the cube using Vector3.lerp.
-
-Link to video explanation here:\
